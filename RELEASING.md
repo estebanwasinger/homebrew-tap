@@ -9,7 +9,7 @@ Create a GitHub release in `estebanwasinger/dataweave-py`, typically using a
 tag such as:
 
 ```bash
-v1.0.2
+1.0.2
 ```
 
 That release triggers the `Release dw CLI Source Asset` workflow in the main
@@ -45,6 +45,12 @@ The tap repo `Publish Bottles` workflow should:
 - build the formula with `brew test-bot`
 - publish bottles to the tap release
 - commit the generated `bottle do` block back to the default branch
+
+The initial bottle matrix is:
+
+- Linux (`ubuntu-latest`)
+- macOS Intel (`macos-13`)
+- macOS Apple Silicon (`macos-14`)
 
 The workflow uses the release tag only for the bottle asset URL:
 

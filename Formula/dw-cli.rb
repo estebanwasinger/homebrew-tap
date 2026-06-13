@@ -1,7 +1,7 @@
 class DwCli < Formula
   desc "Rust-native DataWeave CLI"
   homepage "https://github.com/estebanwasinger/dataweave-py"
-  url "https://github.com/estebanwasinger/dataweave-py/releases/download/v1.0.2/dw-cli-1.0.2-source.tar.gz"
+  url "https://github.com/estebanwasinger/dataweave-py/releases/download/1.0.2/dw-cli-1.0.2-source.tar.gz"
   sha256 "2025a24f3399fbff11e8d2d961dafbb87d3f0d1723286e2a2c79263a0c747f7f"
   license "MIT"
 

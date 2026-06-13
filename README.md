@@ -46,6 +46,12 @@ The split is:
 - `dataweave-py` release: source tarball for `Formula/dw-cli.rb`
 - `homebrew-tap` release: bottle artifacts built by `brew test-bot --publish`
 
+Initial bottle targets are:
+
+- Linux (`ubuntu-latest`)
+- macOS Intel (`macos-13`)
+- macOS Apple Silicon (`macos-14`)
+
 ## Creating the actual tap repository
 
 The safest bootstrap path is:
